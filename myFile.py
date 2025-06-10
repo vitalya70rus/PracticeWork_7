@@ -1,5 +1,4 @@
-strs = ["abc", "def", "ghi"]
-finally_len = 0
-for str in strs:
-    finally_len += len(str)
-print(finally_len)
+sequence = [-2,-1,0,1,2]
+for num in sequence:
+    if num > 0:
+        print(num)
